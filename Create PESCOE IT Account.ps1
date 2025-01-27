@@ -1,4 +1,4 @@
-net user /add PESCOE IT supp0RT@2025.!
+net user /add PESCOE IT supp0RT@2025.
 
 net localgroup Administrators PESCOE IT /add
 
