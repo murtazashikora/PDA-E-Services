@@ -1,4 +1,4 @@
-Start-BitsTransfer -Source 'https://github.com/murtazashikora/PDA-E-Services/blob/PNQ-LockScreen/PNQ%20Diwali%202025.jpg?raw=true' -Destination c:\PNQ_Lockscreen.jpg
+Start-BitsTransfer -Source 'https://github.com/murtazashikora/PDA-E-Services/blob/Wallpapers/Christmas%202025.jpg?raw=true' -Destination c:\PNQ_Lockscreen.jpg
 
 REG DELETE HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP /f
 REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP
