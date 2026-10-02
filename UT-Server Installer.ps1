@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/murtazashikora/PDA-Uptime-Tracker/master/installer/Deploy-Server.ps1' -OutFile Deploy-Server.ps1; .\Deploy-Server.ps1"
