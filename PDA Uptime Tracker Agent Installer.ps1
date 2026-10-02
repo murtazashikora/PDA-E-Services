@@ -1,1 +1,1 @@
-powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/murtazashikora/PDA-E-Services/48159253eaeef0514832d0d9f9e1590b16b8436c/Install-PDAAgent.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/murtazashikora/PDA-Uptime-Tracker/master/installer/Deploy-Workstation.ps1' -OutFile Deploy-Workstation.ps1; .\Deploy-Workstation.ps1"
